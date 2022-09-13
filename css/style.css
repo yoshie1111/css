@@ -1,16 +1,16 @@
-.card{
+.card {
   width: 360px;
   margin: 100px auto 0;
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
 }
 
-.img{
-  background: url("../img/card.jpg");
-  background: 360px;
+.img {
+  width: 360px;
   margin: 100px auto 0;
-  
+
 }
-.category{
+
+.category {
   font-size: 14px;
   padding-top: 15px;
   color: #fff;
@@ -18,23 +18,24 @@
   background-color: #008888;
   display: inline-block
 }
-.cook{
+
+.cook {
   font-size: 18px;
   padding-bottom: 30px;
 }
-.tag{
-  color: #008888; 
+
+.tag {
+  color: #008888;
   padding-left: 15px;
   text-align: left;
   display: flex
 }
-p{
+
+p {
   color: #888888;
   font-size: 14px;
   padding-left: 15px;
   text-align: left;
+  display: flex
 }
-
-
-
 
