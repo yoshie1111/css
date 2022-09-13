@@ -26,11 +26,13 @@
   color: #008888; 
   padding-left: 15px;
   text-align: left;
+  display: flex
 }
 p{
-  color: #888;
+  color: #888888;
   font-size: 14px;
   padding-left: 15px;
+  text-align: left;
 }
 
 
