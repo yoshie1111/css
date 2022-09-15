@@ -1,41 +1,40 @@
-.card {
-  width: 360px;
-  margin: 100px auto 0;
-  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
-}
-
-.img {
-  width: 360px;
-  margin: 100px auto 0;
-
-}
-
-.category {
-  font-size: 14px;
-  padding-top: 15px;
-  color: #fff;
+.practice__tan {
+  position: relative;
+  background-color: #55bbbb;
+  width: 200px;
+  display: block;
+  padding: 18px;
   text-align: center;
-  background-color: #008888;
-  display: inline-block
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  margin: 100px auto;
 }
 
-.cook {
-  font-size: 18px;
-  padding-bottom: 30px;
+.practice__tan::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  height: 20px;
+  left: 15px;
+  background: url(../img/mail.svg) no-repeat;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  transform: translateY(-15px);
 }
 
-.tag {
-  color: #008888;
-  padding-left: 15px;
-  text-align: left;
-  display: flex
+.practice__tan::after{
+  content: "";
+  position: absolute;
+  top: 50%;
+  height: 20px;
+  right: 15px;
+  background: url(../img/download__icon.svg) no-repeat;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  transform: translateY(-20px);
 }
-
-p {
-  color: #888888;
-  font-size: 14px;
-  padding-left: 15px;
-  text-align: left;
-  display: flex
-}
-
